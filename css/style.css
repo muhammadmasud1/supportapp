@@ -246,3 +246,238 @@ margin-bottom: 15px;
     -webkit-box-shadow: 0px 2px 20px 5px rgba(116,116,116,0.25); 
  box-shadow: 0px 2px 20px 5px rgba(116,116,116,0.25);
 }
+
+
+/* ====================multi-Messagner design part========================== */
+
+#multiple-messanger{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 30px;
+}
+#multiple-messanger img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#multiple-messanger .msnger-containers{
+    display: flex;
+    align-items: center;
+}
+#multiple-messanger .msnger-containers .msnger-items h1{
+    font-size: 35px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#multiple-messanger .msnger-containers .msnger-items span{
+    margin: 15px 0;
+    color: #333;
+    padding-top: 15px ;
+}
+#multiple-messanger .msnger-containers .msnger-items .main-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding-top: 20px;
+   
+   
+}
+#multiple-messanger .msnger-containers .msnger-items .main-box .right-box li{
+display: flex;
+align-items: center;
+gap: 0.7rem;
+padding: 7px 0;
+}
+#multiple-messanger .msnger-containers .msnger-items .main-box .left-box li{
+display: flex;
+align-items: center;
+gap: 0.7rem;
+padding: 8px 0;
+}
+#multiple-messanger .msnger-containers .msnger-items a{
+    text-decoration: underline;
+    color: #2b68c2;
+    font-size: 18px;
+}
+
+
+/* =======================service center design======================== */
+
+#service-center{
+    width: 100%;
+    height: 100vh;
+    background:#353448;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+#service-center .service-containers{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #868691;
+    
+}
+#service-center .prepagation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px 0;
+}
+#service-center .prepagation li {
+    color: #fff;
+}
+#service-center .prepagation .active{
+    color: #FFC059;
+}
+#service-center .dashboard{
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+  
+}
+#service-center img{
+    position: absolute;
+    width: 500px;
+    right:0;
+    top: 160px;
+    bottom: -80px;
+    margin-top: 100px;
+   
+}
+#service-center .dashboard .content-text{
+   left: 0;
+    
+}
+
+#service-center .dashboard .content-text h1{
+    color: #F6F8FB;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#service-center .dashboard .content-text p{
+    color: #f1eaea;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+#service-center .dashboard .content-text .btn{
+    padding: 10px 15px;
+    background: #FFC059;
+    color: #212327;
+    border-radius: 5px;
+    transition: 0.5s all ease;
+}
+#service-center .dashboard .content-text .btn:hover{
+    -webkit-box-shadow: 0px 2px 20px 5px rgba(13, 200, 233, 0.90); 
+    box-shadow: 0px 2px 20px 5px rgba(26, 225, 252, 0.90);
+}
+
+/*================== heading design part center =========================*/
+
+
+#heading{
+    text-align: center;
+}
+#heading h1{
+    font-size: 30px;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#heading p{
+    color: #333;
+}
+
+#mood{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 0.7rem;
+}
+
+/* ==================price list design======================== */
+
+
+#ModelBox .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#ModelBox .box-container .price{
+    margin: 0 15px;
+    padding: 35px 35px 30px 30px;
+    -webkit-box-shadow: 0px 2px 20px 5px rgba(35, 38, 39, 0.5); 
+    box-shadow: 0px 2px 20px 5px rgba(39, 41, 41, 0.5);
+}
+#ModelBox .box-container .price h2{
+    color: #333;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#ModelBox .box-container .price h3{
+    color: #FFC059;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+#ModelBox .box-container .price .serviceBox  .list p{
+    color: #333;
+}
+#ModelBox .box-container .price .serviceBox  .list{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 10px 0;
+}
+#ModelBox .box-container .price .serviceBox{
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+#ModelBox .box-container .price .btn1{
+    margin-bottom: 20px !important;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #f1e3cb;
+    color: #353448;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+#ModelBox .box-container .price .btn2{
+    margin-bottom: 20px !important;
+    display: inline-block;
+    padding: 10px 15px;
+    background: #FFC059;
+    color: #353448;
+    font-size: 15px;
+    border-radius: 5px;
+    
+}
+
+
+#heading2{
+    text-align: center;
+    background: #f5e4c8;
+}
+#heading2 h1{
+    font-size: 30px;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+#heading2 p{
+    color: #333;
+}
